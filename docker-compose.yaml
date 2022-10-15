@@ -7,7 +7,7 @@ mee6:
         - redis
     environment:
         - REDIS_URL=redis://redis/
-        - MEE6_TOKEN=...
+        - MEE6_TOKEN=MTAyNzk3NTM3NTA2NzgxNjAwNg.Gh1r4-.7Qq9vnCwFfSgirEvLysAG4hkfIVVya3ZpckH2E
 
 mee6-web:
     image: mee6-web
@@ -15,10 +15,10 @@ mee6-web:
         - redis
     environment:
         - REDIS_URL=redis://redis/
-        - OAUTH2_CLIENT_ID=...
-        - OAUTH2_CLIENT_SECRET=...
-        - OAUTH2_REDIRECT_URI=...
-        - SECRET_KEY=...
+        - OAUTH2_CLIENT_ID=1027975375067816006
+        - OAUTH2_CLIENT_SECRET=z8ZTjlgGKHVjBMORTalxBvpGJYgWTZyW
+        - OAUTH2_REDIRECT_URI=https://dsc.gg/nx-bot
+        - SECRET_KEY=test
     expose:
         - 5000
 
